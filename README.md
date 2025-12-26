@@ -2,20 +2,20 @@
 
 AttentionAssist was developed as a group project for CMPT 481 (Human-Computer Interaction) at the University of Saskatchewan.
 
-This repository contains **my individual contributions** to the project, focusing on the implementation of the randomized notification system and the backend data collection pipeline used to record experiment results in a CSV file for data analysis.
+This repository contains **my individual contributions** to the project, focusing on the implementation of the randomized notification system and the backend data collection pipeline used to record experiment results in CSV files for data analysis.
 
 ### Team Members
 - Sayem Khondaker — Backend & Data Analysis
 - Piper Abel — Frontend & UI Design (https://www.linkedin.com/in/piper-abel)
 - Vinh Pham — Frontend & Backend (https://www.linkedin.com/in/vinhpham25)
 
-Although both the scripts above are mainly my work, Vinh also had contributions in both scripts and Piper in `random_notification.js`.
+Although the scripts included here primarily reflect my work, Vinh also contributed to both components, and Piper contributed to `random_notification.js`.
 
-For access to the full project source code including how to run it or a live demonstration, please feel free to contact me (ehtesam.alhaqq@gmail.com) for a discussion.
+For access to the full project source code and instructions on how to run it, please feel free to contact me at ehtesam.alhaqq@gmail.com for a discussion. The link to a short demo video from the final report has been shared below. 
 
 ---
 
-Below are some details about the project imported from the final report, which was also largely contributed by Piper Abel. If you would like to view to the full report—which includes details about the experiment's evaluation approach, results, conclusions, please feel free to contact me.
+Below are some details about the project imported from the final report, which was also largely contributed by Piper Abel. If you would like to view the full report—which includes details about the experiment's evaluation approach, results, conclusions—please feel free to contact me.
 
 ## Interaction Problem
 Users often face disruptions in productivity when receiving notifications that could cause them to lose focus. Current solutions to this problem include “Do Not Disturb” features, which silences all notifications, potentially causing the users to miss out on important information. Additionally, there are features that allow users to silence certain notifications, but still receive desired alerts. Our team aimed to find another solution that would help decrease distractions, while still ensuring users receive important alerts.
@@ -47,8 +47,13 @@ The notifications in our system are delivered based on two main factors listed a
 
 ---
 
-## Technical Overview
-The system’s frontend was built using HTML, CSS, and JavaScript, enhanced by libraries like QuillJS for text editing and GSAP for animations. On the backend, we used a Node.js server with Express to handle POST requests from each group, storing the data into separate CSV files using Node’s fs module. We also used body-parser and path to support request parsing and file operations.
+## Demo Video
+[![Demo Video](https://img.youtube.com/vi/_HdQg56JTIQ/0.jpg)](https://youtu.be/_HdQg56JTIQ)
 
+
+---
+
+## System Architecture
+The system’s frontend was built using HTML, CSS, and JavaScript, enhanced by libraries like QuillJS for text editing and GSAP for animations. On the backend, we used a Node.js server with Express to handle `POST` requests from each group, storing the data into separate CSV files using Node’s `fs` module. We also used `body-parser` and `path` to support request parsing and file operations.
 
 
